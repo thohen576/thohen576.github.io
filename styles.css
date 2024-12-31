@@ -34,6 +34,24 @@ section {
   border-radius: 5px;
 }
 
+.linkedin-button {
+  text-decoration: none; /* Remove underline from the link */
+}
+
+.linkedin-button button {
+  padding: 10px 20px;
+  background-color: #0077b5; /* LinkedIn blue */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px; /* Adjust text size */
+}
+
+.linkedin-button button:hover {
+  background-color: #005f87; /* Darker blue on hover */
+}
+
 footer {
   text-align: center;
   padding: 10px;
