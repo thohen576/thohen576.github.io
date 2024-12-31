@@ -59,6 +59,53 @@ section {
   background-color: 005f87; /* Darker blue on hover */
 }
 
+#quiz-section {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+  background-color: black;
+  border: 2px solid red;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(255, 0, 0, 0.5); /* Red shadow for subtle effect */
+}
+
+h2 {
+  font-size: 24px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+/* Question Styling */
+.question {
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 5px;
+  border: 2px solid red; /* Red border */
+  border-radius: 5px;
+  background-color: black; /* Black background */
+  color: white; /* White text */
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: white; /* White background */
+  color: black; /* Black text */
+  transform: scale(1.1); /* Slight zoom */
+}
+
+/* Result Text */
+#result {
+  font-size: 18px;
+  margin-top: 20px;
+  color: white; /* White text */
+}
+
 footer {
   text-align: center;
   padding: 10px;
