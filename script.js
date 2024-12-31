@@ -19,7 +19,7 @@ function checkAnswer(questionIndex, userAnswer) {
   const questionDiv = document.querySelectorAll(".question")[questionIndex];
   questionDiv.querySelectorAll("button").forEach(button => {
     button.disabled = true;
-    button.style.backgroundColor = "#ccc"; // Visual feedback for disabled button
+    button.style.backgroundColor = "Gray"; // Visual feedback for disabled button
     button.style.cursor = "not-allowed";
   });
 }
