@@ -1,15 +1,15 @@
 body {
-  font-family: Impact, sans-serif;
+  font-family: Arial, sans-serif;
   line-height: 1.6;
   margin: 0;
   padding: 0;
-  background-color: #f4f4f2;
-  color: #333333
+  background-color: f4f4f2;
+  color: 333333
 }
 
 header {
-  background: #333;
-  color: #f4f4f2;
+  background: 333;
+  color: f4f4f2;
   padding: 1rem 0;
   text-align: center;
 }
@@ -25,14 +25,14 @@ header nav ul li {
 }
 
 header nav ul li a {
-  color: #fff;
+  color: 006400;
   text-decoration: none;
 }
 
 section {
   margin: 20px;
   padding: 20px;
-  border: 1px solid #ddd;
+  border: 1px solid 221;
   border-radius: 5px;
 }
 
@@ -42,7 +42,7 @@ section {
 
 .linkedin-button button {
   padding: 10px 20px;
-  background-color: #0077b5; /* LinkedIn blue */
+  background-color: 0077b5; /* LinkedIn blue */
   color: white;
   border: none;
   border-radius: 5px;
@@ -51,14 +51,14 @@ section {
 }
 
 .linkedin-button button:hover {
-  background-color: #005f87; /* Darker blue on hover */
+  background-color: 005f87; /* Darker blue on hover */
 }
 
 footer {
   text-align: center;
   padding: 10px;
-  background: #333;
-  color: #fff;
+  background: 333;
+  color: 222;
   position: fixed;
   width: 100%;
   bottom: 0;
