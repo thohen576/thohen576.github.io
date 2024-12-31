@@ -19,6 +19,33 @@
     </nav>
   </header>
 
+  <section id="quiz-section">
+  <h2>Come back to this quiz after reading my wesbite to confirm how well you know me!</h2>
+  <div id="quiz">
+    <div class="question">
+      <p>1. Is my full name Tom Johnson?</p>
+      <button onclick="checkAnswer(0, false)">True</button>
+      <button onclick="checkAnswer(0, true)">False</button>
+    </div>
+    <div class="question">
+      <p>2. Does Tom have a connection to a London university?</p>
+      <button onclick="checkAnswer(1, true)">True</button>
+      <button onclick="checkAnswer(1, false)">False</button>
+    </div>
+    <div class="question">
+      <p>3. Has Tom completed his web development training for FAC?</p>
+      <button onclick="checkAnswer(2, false)">True</button>
+      <button onclick="checkAnswer(2, true)">False</button>
+    </div>
+    <div class="question">
+      <p>4. Tom is currently 7 kyu on Codewars.</p>
+      <button onclick="checkAnswer(3, true)">True</button>
+      <button onclick="checkAnswer(3, false)">False</button>
+    </div>
+  </div>
+  <p id="result"></p>
+  </section>
+  
   <section id="about">
     <h2>About Tom</h2>
     <p>Welcome to my debut website! I am an aspiring web developer, passionate about reclaiming the modern internet and refactoring it for the benefit of society. I believe a social movement to remake the internet is possible and can succeed. I want to actively contribute to the assembly of alternative tools and technologies and I am currently founding a UK-based biodiversity monitoring start-up, which could benefit massively from the integration of web-based technology! I see FAC as the perfect place to learn skills while I found this social enterprise.</p>
@@ -43,33 +70,6 @@
       <li>JavaScript - Essential training complete, plus I have now reached 6 Kyu on CodeWars. I have found JavaScript challenging but rewarding to learn so far (after some initial head scratching!)</li>
     </ul>
   </section>
-
-<section id="quiz-section">
-  <h2>Before you go... How Well Do You Know Tom?</h2>
-  <div id="quiz">
-    <div class="question">
-      <p>1. Is my full name Tom Johnson?</p>
-      <button onclick="checkAnswer(0, false)">True</button>
-      <button onclick="checkAnswer(0, true)">False</button>
-    </div>
-    <div class="question">
-      <p>2. Does Tom have a connection to a London university?</p>
-      <button onclick="checkAnswer(1, true)">True</button>
-      <button onclick="checkAnswer(1, false)">False</button>
-    </div>
-    <div class="question">
-      <p>3. Has Tom completed his web development training for FAC?</p>
-      <button onclick="checkAnswer(2, false)">True</button>
-      <button onclick="checkAnswer(2, true)">False</button>
-    </div>
-    <div class="question">
-      <p>4. Tom is currently 7 kyu on Codewars.</p>
-      <button onclick="checkAnswer(3, true)">True</button>
-      <button onclick="checkAnswer(3, false)">False</button>
-    </div>
-  </div>
-  <p id="result"></p>
-</section>
   
   <section id="contact">
     <h2>Get in touch</h2>
